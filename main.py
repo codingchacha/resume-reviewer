@@ -19,7 +19,7 @@ def extract_text_from_pdf(file_path):
         text += page.extract_text()
     return text + f"\nThis resume size is {size} pages"
 
-print(extract_text_from_pdf("resume.pdf"))
+
 
 
 def call_model(jd , resume):
@@ -43,7 +43,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 job_description = st.text_area("Job description", height=200)
 resume_file = st.file_uploader("Upload your resume", type=["pdf"])
-if st.button("Submit", disable_html_escaping=False):
+if st.button("Submit"):
     if job_description and resume_file:
         with open("resume.pdf", "wb") as f:
             f.write(resume_file.getbuffer())
