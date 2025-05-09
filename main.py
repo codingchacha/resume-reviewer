@@ -83,12 +83,7 @@ if st.button("Submit"):
         </style>""", unsafe_allow_html=True)
 
 
-st.markdown("""
-<h1 style='text-align: center; color: #4CAF50;'>📄 Resume Review App</h1>
-<h3 style='text-align: center;'>🔍 Connecting Talent with Opportunity</h3>
-<p style='text-align: center;'>Upload your resume and job description to get AI-powered feedback, a resume score, and actionable suggestions.</p>
-<hr style="border:1px solid #eee">
-""", unsafe_allow_html=True)
+
 
 
 
