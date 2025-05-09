@@ -2,9 +2,9 @@ import streamlit as st
 from pypdf import PdfReader
 from groq import Groq
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 
 #setting up groq client
 client = Groq(api_key=os.environ.get("API_KEY"))
