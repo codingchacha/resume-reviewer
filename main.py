@@ -60,7 +60,7 @@ if st.button("Submit"):
             padding-left: 5px;
             padding-bottom: 10px;
         }
-        </style>""", unsafe_allow_html=False)
+        </style>""", unsafe_allow_html=True)
         st.markdown("""<style>
         .reportview-container .main .block-container{
             max-width: 90%;
@@ -80,7 +80,7 @@ if st.button("Submit"):
             color: grey;
             padding: 5px;
             }
-        </style>""", unsafe_allow_html=False)
+        </style>""", unsafe_allow_html=True)
 
 
 st.markdown("""
@@ -88,7 +88,7 @@ st.markdown("""
 <h3 style='text-align: center;'>🔍 Connecting Talent with Opportunity</h3>
 <p style='text-align: center;'>Upload your resume and job description to get AI-powered feedback, a resume score, and actionable suggestions.</p>
 <hr style="border:1px solid #eee">
-""", unsafe_allow_html=False)
+""", unsafe_allow_html=True)
 
 
 
